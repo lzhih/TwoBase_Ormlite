@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <EditText
+        android:id="@+id/EditText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="11px"
+        android:layout_y="10px"
+        android:text="EditText"
+        android:textSize="18sp" >
+    </EditText>
+
+    <ListView
+        android:id="@+id/ListView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="12px"
+        android:layout_y="69px" >
+    </ListView>
+
+</AbsoluteLayout>
